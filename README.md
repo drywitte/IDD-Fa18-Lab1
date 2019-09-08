@@ -12,8 +12,8 @@
 
 **a. What color stripes are on a 100 Ohm resistor?**
  
-**b. What do you have to do to light your LED?**
-* In order to light the LED I have to click the button down, closing the circuit.
+**b. What do you have to do to light your LED?** <br/>
+In order to light the LED I have to click the button down, closing the circuit.
 
 
 ## Part C. Blink a LED using Arduino
@@ -33,14 +33,14 @@ digitalWrite(LED_BUILTIN, LOW);
 delay(1000);
 ```
 
-**c. What circuit element would you want to add to protect the board and external LED?**
+**c. What circuit element would you want to add to protect the board and external LED?**<br/>
 A resistor
  
-**d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
+**d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**<br/>
 Around 5ms
 
-**e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
-
+**e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**<br/>
+[Custom blink](./CustomBlink.ino)
 
 ### 2. Blink your LED
 
@@ -51,16 +51,16 @@ Around 5ms
 
 ## Part D. Manually fade an LED
 
-**a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**
+**a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**<br/>
 Yes, the pot resistance is not so high that there is no voltage at the point of the LED.
 
 
 ## Part E. Fade an LED using Arduino
 
-**a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
+**a. What do you have to modify to make the code control the circuit you've built on your breadboard?**<br/>
 Change led var to 11.
 
-**b. What is analogWrite()? How is that different than digitalWrite()?**
+**b. What is analogWrite()? How is that different than digitalWrite()?**<br/>
 analogwrite is on a scale of 0-255 whereas digitalwrite is binary, either on or off. This allows analogwrite to effectively supply varying voltage.
 
 ## Part F. FRANKENLIGHT!!!
