@@ -13,7 +13,7 @@
 **a. What color stripes are on a 100 Ohm resistor?**
  
 **b. What do you have to do to light your LED?** <br/>
-In order to light the LED I have to click the button down, closing the circuit.
+In order to light the LED I have to click the button down, closing the circuit and allowing the current to flow through.
 
 
 ## Part C. Blink a LED using Arduino
@@ -32,12 +32,13 @@ delay(1000);
 digitalWrite(LED_BUILTIN, LOW);
 delay(1000);
 ```
+Changing the delays will change the amount of time between each blink.
 
 **c. What circuit element would you want to add to protect the board and external LED?**<br/>
-A resistor
+A resistor to reduce the voltage flowing through to the LED.
  
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**<br/>
-Around 5ms
+Around 5ms. You could test the voltage using a multimeter. Using a multi-meter you might find that the voltage is fluctuating much more than expected.
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**<br/>
 [Custom blink](./CustomBlink.ino)
@@ -45,14 +46,13 @@ Around 5ms
 ### 2. Blink your LED
 
 **Make a video of your LED blinking, and add it to your lab submission.**
-
 [Blinking LED](https://photos.app.goo.gl/5yYHmXPSZyMVVevK7)
 
 
 ## Part D. Manually fade an LED
 
 **a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**<br/>
-Yes, the pot resistance is not so high that there is no voltage at the point of the LED.
+Yes, the pot resistance is not so high that there is not enough voltage to light up the led. Generally as the pot resistance is turned up the light dims, and as the post resistance is turned down the light brightens.
 
 
 ## Part E. Fade an LED using Arduino
