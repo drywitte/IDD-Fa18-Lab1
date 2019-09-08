@@ -74,7 +74,7 @@ Yes, there is a processor in the center of the chip. Given that this is a web ca
 There are 2 sensors (including a mic). One is an image sensor, which takes in light and converts it to a digital signal made up of pixels that stores light and color. The mic takes in acoustic waves and converts them to a digital signal. These 2 signals are then sent to the computer hooked up to the webcam, there is likely no combining the signals on the webcam itself.
 
 **c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?**<br/>
-The device is powered by hooking up to usb. 
+The device is powered by hooking up to usb. According to the USB cable, the device uses 30V. There is a capacitor present, which would be used to regulate power to components. 
 
 **d. Is information stored in your device? Where? How?**
 There is no information stored on the device, it has no memory.
