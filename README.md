@@ -5,7 +5,7 @@
 
 ## Part A. Set Up a Breadboard
 
-[insert a photo of your breadboard setup here]
+![photo](./IMG_0724.jpg)
 
 
 ## Part B. Manually Blink a LED
@@ -46,7 +46,7 @@ Around 5ms
 
 **Make a video of your LED blinking, and add it to your lab submission.**
 
-[link to your video here; feel free to upload to youtube and just paste in a link here]
+[Blinking LED](https://photos.app.goo.gl/5yYHmXPSZyMVVevK7)
 
 
 ## Part D. Manually fade an LED
