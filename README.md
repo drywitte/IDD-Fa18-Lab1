@@ -67,13 +67,17 @@ analogwrite is on a scale of 0-255 whereas digitalwrite is binary, either on or 
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
 
-**a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
+**a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**<br/>
+Yes, there is a processor in the center of the chip. Given that this is a web camera, it is likely manipulating the camera to adjust for lighting, focus, etc. and possibly manipulating the signal from the before sending it to the computer.
 
-**b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?**
+**b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?** <br/>
+There are 2 sensors (including a mic). One is an image sensor, which takes in light and converts it to a digital signal made up of pixels that stores light and color. The mic takes in acoustic waves and converts them to a digital signal. These 2 signals are then sent to the computer hooked up to the webcam, there is likely no combining the signals on the webcam itself.
 
-**c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?**
+**c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?**<br/>
+The device is powered by hooking up to usb. 
 
 **d. Is information stored in your device? Where? How?**
+There is no information stored on the device, it has no memory.
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 
