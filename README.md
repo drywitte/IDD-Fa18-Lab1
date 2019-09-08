@@ -34,10 +34,10 @@ delay(1000);
 ```
 
 **c. What circuit element would you want to add to protect the board and external LED?**
-# A resistor
+A resistor
  
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
-# Around 5ms
+Around 5ms
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
 
@@ -52,16 +52,16 @@ delay(1000);
 ## Part D. Manually fade an LED
 
 **a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**
-# Yes, the pot resistance is not so high that there is no voltage at the point of the LED.
+Yes, the pot resistance is not so high that there is no voltage at the point of the LED.
 
 
 ## Part E. Fade an LED using Arduino
 
 **a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
-# Change led var to 11.
+Change led var to 11.
 
 **b. What is analogWrite()? How is that different than digitalWrite()?**
-# analogwrite is on a scale of 0-255 whereas digitalwrite is binary, either on or off. This allows analogwrite to effectively supply varying voltage.
+analogwrite is on a scale of 0-255 whereas digitalwrite is binary, either on or off. This allows analogwrite to effectively supply varying voltage.
 
 ## Part F. FRANKENLIGHT!!!
 
