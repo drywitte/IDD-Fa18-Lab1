@@ -79,7 +79,7 @@ There are 2 sensors (including a mic). One is an image sensor, which takes in li
 **c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?**<br/>
 The device is powered by hooking up to usb. According to the USB cable, the device does not say its voltage but it is likely 3.3V or 5V. There is a capacitor present, which would be used to regulate power to components. 
 
-**d. Is information stored in your device? Where? How?**
+**d. Is information stored in your device? Where? How?** <br/>
 There is no information stored on the device, it has no memory.
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED. <br/>
