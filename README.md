@@ -46,7 +46,7 @@ Around 5ms. You could test the voltage using a multimeter. Using a multi-meter y
 
 ### 2. Blink your LED
 
-**Make a video of your LED blinking, and add it to your lab submission.**
+**Make a video of your LED blinking, and add it to your lab submission.** <br/>
 [Blinking LED](https://photos.app.goo.gl/5yYHmXPSZyMVVevK7)
 
 
