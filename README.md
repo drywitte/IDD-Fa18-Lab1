@@ -90,4 +90,3 @@ The mic is connected to the board by wires that have clear anode and cathode con
 **Make a video showing off your Frankenlight.**<br/>
 [FrankenLight Video](./IMG_0732.TRIM.MOV)
 
-**Include any schematics or photos in your lab write-up.**
