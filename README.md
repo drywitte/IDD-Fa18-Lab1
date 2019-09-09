@@ -66,6 +66,8 @@ analogwrite is on a scale of 0-255 whereas digitalwrite is binary, either on or 
 ## Part F. FRANKENLIGHT!!!
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
+![Web cam front](./web cam front .jpg)
+![Web cam back & schema](./web cam schematic.jpg)
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**<br/>
 Yes, there is a processor in the center of the chip. Given that this is a web camera, it is likely manipulating the camera to adjust for lighting, focus, etc. and possibly manipulating the signal from the before sending it to the computer.
